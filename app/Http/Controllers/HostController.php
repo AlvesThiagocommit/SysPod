@@ -10,7 +10,7 @@ use App\Http\Controllers\Helpers\HostAccountController as HostAccount;
 
 class HostController extends Controller
 {
-    public function create(Request $request)
+    public function create(Request $request) //
     {
         $validator = Utils::validate($request->all(), [
             'name' => 'required|string|max:50',
