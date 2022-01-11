@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Helpers\LogoController as Logo;
 use App\Http\Controllers\Helpers\AccountController as Account;
 
-class SettingsController extends Controller
+class SettingsController extends Controller // Classe de configurações , contem operações crud
 {
     public function create(Request $request)
     {
