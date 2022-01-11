@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
 
-class UserController extends Controller
+class UserController extends Controller // Classe UserController , contem operações CRUD.
 {
     public function create(Request $request)
     {
