@@ -7,7 +7,7 @@ use App\Http\Controllers\Helpers\ServerVerify;
 
 class ServerController extends Controller
 {
-    public function verify()
+    public function verify() // 
     {
         $response = [
             'database' => ServerVerify::database(),
