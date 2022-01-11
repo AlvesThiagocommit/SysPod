@@ -44,7 +44,7 @@ class HostController extends Controller
         return Utils::response($hosts);
     }
 
-    public function paginate()
+    public function paginate() // 
     {
         $hosts = Host::latest('id')->paginate();
         return Utils::response($hosts);
