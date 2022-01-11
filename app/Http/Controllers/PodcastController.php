@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Helpers\ThumbnailController as Thumbnail;
 use App\Http\Controllers\Helpers\AudioController as Audio;
 
-class PodcastController extends Controller
+class PodcastController extends Controller //
 {
     public function create(Request $request)
     {
