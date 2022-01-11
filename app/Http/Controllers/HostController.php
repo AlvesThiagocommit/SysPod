@@ -91,7 +91,7 @@ class HostController extends Controller
         return Utils::response($host);
     }
 
-    public function delete(Host $host)
+    public function delete(Host $host) //
     {
         $host->delete();
     }
