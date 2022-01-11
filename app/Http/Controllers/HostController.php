@@ -64,7 +64,7 @@ class HostController extends Controller
         return Utils::response($host);
     }
 
-    public function edit(Request $request, Host $host)
+    public function edit(Request $request, Host $host) //
     {
         $validator = Utils::validate($request->all(), [
             'name' => 'required|string|max:50',
