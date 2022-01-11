@@ -1,0 +1,27 @@
+// Typography
+$font-family-sans-serif: 'Lato', sans-serif;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e53935;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #388e3c;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// Branding
+$primary: #ef6452;
+$dark: #050505;
+$secondary: #4a4a4a;
+$light: #ededed;
+
+$theme-colors: (
+  'primary': $primary,
+  'dark': $dark,
+  'secondary': $secondary,
+  'light': $light
+);

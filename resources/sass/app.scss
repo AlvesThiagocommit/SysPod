@@ -1,0 +1,85 @@
+// Variables
+@import 'variables';
+
+// fonts
+@import '../assets/cdn/fonts.css';
+@import '../assets/cdn/ionicons.css';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.form-control {
+  border-radius: 0;
+  padding: 10px 16px;
+  height: 46px;
+}
+
+h4 {
+  font-weight: 700
+}
+
+p {
+  color: $secondary;
+}
+
+button {
+  padding: 10px 20px !important
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.actions .icon {
+  font-size: 1.3em;
+  cursor: pointer;
+  transition: color 0.3s;
+  color: #fff;
+}
+
+.actions .icon:hover {
+  color: $primary !important;
+}
+
+.scroll {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    width: 0.4em;
+    height: 0.4em;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $secondary;
+  }
+}
+
+
+.datetime-picker {
+  .year-month-wrapper, .nav-l, .nav-r, .activePort {
+    background-color: $secondary !important;
+  }
+  .days {
+    color: $secondary !important;
+  }
+  .port:hover {
+    color: $dark !important;
+  }
+  .activePort:hover {
+    color: #fff !important;
+    background-color: $dark !important;
+  }
+  .nav-l:hover {
+    background-color: $dark !important;
+  }
+  .nav-r:hover {
+    background-color: $dark !important;
+  }
+  .okButton {
+    color: $secondary !important;
+  }
+  .time-picker {
+    .active {
+      background-color: $secondary;
+    }
+  }
+}
