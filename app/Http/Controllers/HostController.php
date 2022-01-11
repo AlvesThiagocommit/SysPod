@@ -103,7 +103,7 @@ class HostController extends Controller
         $host->restore();
     }
 
-    public function count()
+    public function count() //
     {
         $count = [ 'count' => Host::count() ];
         return Utils::response($count);
