@@ -8,27 +8,26 @@ use Illuminate\Foundation\Auth\ConfirmsPasswords;
 class ConfirmPasswordController extends Controller
 {
     /*
-    |--------------------------------------------------------------------------
-    | Confirm Password Controller
-    |--------------------------------------------------------------------------
+    |------------------------------------------------- -------------------------
+    | Confirma controlador de senha
+    |------------------------------------------------- -------------------------
     |
-    | This controller is responsible for handling password confirmations and
-    | uses a simple trait to include the behavior. You're free to explore
-    | this trait and override any functions that require customization.
+    | Este controlador é responsável por lidar com as confirmações de senha e
+    | usa um traço simples para incluir o comportamento.
     |
     */
 
     use ConfirmsPasswords;
 
     /**
-     * Where to redirect users when the intended url fails.
+     * Aqui ele rediciona para pagina inicial caso erro de senha.
      *
      * @var string
      */
     protected $redirectTo = '/home';
 
     /**
-     * Create a new controller instance.
+     * Criando nova instancia.
      *
      * @return void
      */
