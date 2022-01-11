@@ -18,11 +18,21 @@ class ResetPasswordController extends Controller
     |
     */
 
+    /*
+    |------------------------------------------------- -------------------------
+    | Controlador de redefinição de senha
+    |------------------------------------------------- -------------------------
+    |
+    | Este controlador é responsável por lidar com solicitações de redefinição de senha
+    | e usa uma característica simples para incluir esse comportamento.
+    |
+    */
+
     use ResetsPasswords;
 
     /**
      * Where to redirect users after resetting their password.
-     *
+     * Redireciona para para pagina a escolha.
      * @var string
      */
     protected $redirectTo = '/home';
