@@ -9,7 +9,7 @@ use Exception;
 
 class InstallController extends Controller
 {
-    public function verify () {
+    public function verify () { //
         try {
             $users = User::count();
             $settings = Settings::count();
