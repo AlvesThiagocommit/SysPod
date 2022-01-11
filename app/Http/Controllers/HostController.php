@@ -50,7 +50,7 @@ class HostController extends Controller
         return Utils::response($hosts);
     }
 
-    public function trash()
+    public function trash()  // 
     {
         $hosts = Host::onlyTrashed()
             ->latest('deleted_at')
