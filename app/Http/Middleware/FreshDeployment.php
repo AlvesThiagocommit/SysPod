@@ -10,7 +10,7 @@ use App\Utils\Utils;
 
 class FreshDeployment
 {
-    public function handle($request, Closure $next)
+    public function handle($request, Closure $next) // Checagem para saber se o sistema já foi instalado no host
     {
         try {
             $users = User::count();
