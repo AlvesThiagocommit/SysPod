@@ -2,7 +2,7 @@
   <div class="container h-100">
     <div class="row justify-content-center align-items-center h-100">
       <div class="col col-md-3 my-5">
-        <h3 class="text-center mb-4">Create admin</h3>
+        <h3 class="text-center mb-4">Criar Administrador</h3>
         <form class="mb-4">
           <div class="form-group">
             <input type="email" class="form-control" placeholder="Email" v-model="admin.email">
