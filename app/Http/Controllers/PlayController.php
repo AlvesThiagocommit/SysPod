@@ -10,7 +10,7 @@ use Illuminate\Support\Carbon;
 
 class PlayController extends Controller
 {
-    public function create(Request $request)
+    public function create(Request $request) // 
     {
         $validator = Utils::validate($request->all(), [
             'podcast_id' => 'required|integer|exists:podcasts,id',
