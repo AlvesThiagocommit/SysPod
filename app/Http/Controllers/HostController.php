@@ -58,7 +58,7 @@ class HostController extends Controller
         return Utils::response($hosts);
     }
 
-    public function read($host)
+    public function read($host) //
     {
         $host = Host::with('accounts')->find($host);
         return Utils::response($host);
