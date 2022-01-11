@@ -9,3 +9,4 @@ class SpaController extends Controller
         return view('spa');
     }
 }
+//
