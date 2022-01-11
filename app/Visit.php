@@ -9,3 +9,4 @@ class Visit extends Model
     public $timestamps = false;
     protected $fillable = [ 'created_at' ];
 }
+//
