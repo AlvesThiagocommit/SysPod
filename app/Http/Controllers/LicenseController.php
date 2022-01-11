@@ -9,7 +9,7 @@ use GuzzleHttp\Client as Http;
 
 class LicenseController extends Controller
 {
-    public function verify (Request $request)
+    public function verify (Request $request) //
     {
         $validator = Utils::validate($request->all(), [
             'code' => 'required|string|max:100'
