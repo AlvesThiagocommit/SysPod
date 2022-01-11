@@ -2,14 +2,14 @@
   <div class="container h-100">
     <div class="row justify-content-center align-items-center h-100">
       <div class="col col-md-3">
-        <h3 class="text-center">Verify purchase</h3>
+        <h3 class="text-center">Verifique o codigo</h3>
         <p class="text-center mb-0">
-          Please enter Codecanyon purchase code to verify the installation.
+          Insira o codigo de compra.
         </p>
         <p class="text-center mb-4">
           <a href="https://help.market.envato.com/hc/en-us/articles/202822600-Where-Is-My-Purchase-Code-" target="_blank">
             <icon name="help-circle" m-right="1"></icon>
-            How to find your purchase code?
+            Como encontrar o seu código de compra?
           </a>
         </p>
         <form>

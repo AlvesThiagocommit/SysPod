@@ -9,7 +9,7 @@
               <img :src="settings.logo" class="logo cursor-pointer" alt="" @click="clickOnInput()">
             </div>
             <div class="form-control cursor-pointer" v-else @click="clickOnInput()">
-              Select logo
+              Selecione o logo
             </div>
           </div>
         </div>

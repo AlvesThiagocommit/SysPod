@@ -2,8 +2,8 @@
   <div class="container h-100">
     <div class="row justify-content-center align-items-center h-100">
       <div class="col col-md-3">
-        <h3 class="text-center">Check configuration</h3>
-        <p class="text-center mb-4">Check and verify your server configuration before run installation</p>
+        <h3 class="text-center">Verifique a configuração</h3>
+        <p class="text-center mb-4">Verifique a configuração do seu servidor antes de executar a instalação</p>
         <ul class="list-group mb-4">
           <li class="list-group-item d-flex justify-content-between align-items-center">
             <p class="mb-0">Database</p>

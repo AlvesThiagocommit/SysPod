@@ -2,7 +2,7 @@
   <div class="container h-100">
     <div class="row justify-content-center align-items-center h-100">
       <div class="col-md-6 my-5">
-        <h3 class="text-center mb-4">Setup application</h3>
+        <h3 class="text-center mb-4">Ambiente de configuração</h3>
         <div class="row mb-4">
           <div class="col-md-6">
             <file-input placeholder="Choose logo" @uploaded="updateLogo" accept="image/*"></file-input>

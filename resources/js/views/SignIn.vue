@@ -8,8 +8,8 @@
           <p class="w-75 mb-0">{{ settings.description }}</p>
         </div>
         <div class="info" v-else>
-          <h1 class="mb-4">Ready to setup!</h1>
-          <p class="w-75 mb-0">Sign In and update your settings</p>
+          <h1 class="mb-4">Pronto para configurar!</h1>
+          <p class="w-75 mb-0">Faça login e atualize suas configurações</p>
         </div>
       </div>
       <div class="col-md-3  ml-sm-4 m-0">
