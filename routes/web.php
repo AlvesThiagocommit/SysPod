@@ -11,4 +11,15 @@
 |
 */
 
+/*
+|------------------------------------------------- -------------------------
+| Rotas da Web
+|------------------------------------------------- -------------------------
+|
+| Aqui é onde você pode registrar rotas da web para seu aplicativo. Esses
+| as rotas são carregadas pelo RouteServiceProvider dentro de um grupo que
+| contém o grupo de middleware "web". Agora crie algo grande!
+|
+*/
+
 Route::get('/{any}', 'SpaController@index')->where('any', '.*');
