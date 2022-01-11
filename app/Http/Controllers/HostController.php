@@ -36,7 +36,7 @@ class HostController extends Controller
         return Utils::response($host);
     }
 
-    public function list()
+    public function list() // 
     {
         $hosts = Host::orderBy('position')
             ->with('accounts')
