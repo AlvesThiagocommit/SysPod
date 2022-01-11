@@ -1,2 +1,3 @@
 # syspod
-Podcasts Hosting and Managment App
+SysPod é um Sistema feito na linguagem PHP , com framework Laravel e Vuejs.
+
