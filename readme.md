@@ -1,6 +1,8 @@
 # syspod
 SysPod é um Sistema de hospedagem e gerenciamento de podcast, feito na linguagem PHP , com framework Laravel e Vuejs.
 
+Sistema baixado do codecanyon, para testes no github.
+
 endereço no heroku
 
 https://syspod.herokuapp.com/
